@@ -21,7 +21,8 @@
 
 - 부족하면 알고리즘 개선에 방해가 됨.
 
-  ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19d09cfe-7c53-4650-8875-55d4a9a8c8cc/_2020-12-26__4.56.49.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/19d09cfe-7c53-4650-8875-55d4a9a8c8cc/_2020-12-26__4.56.49.png)
+<img width="561" alt="_2020-12-26__4 56 49" src="https://user-images.githubusercontent.com/70262329/103148998-f8d94b00-47a8-11eb-9101-d56d388116a6.png">
+
 
 ### 1.5.2 대표성 없는 훈련 데이터
 
@@ -63,7 +64,7 @@
 
   → 훈련 데이터에 치중한 나머지 모델이 복잡해지는 현상. 정확도는 높으나 실전에 사용하기에 현명하지 않음.
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45b9ef2e-c42b-4f5a-ac47-24dc620a0368/_2020-12-26__5.15.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/45b9ef2e-c42b-4f5a-ac47-24dc620a0368/_2020-12-26__5.15.07.png)
+<img width="572" alt="_2020-12-26__5 15 07" src="https://user-images.githubusercontent.com/70262329/103149000-faa30e80-47a8-11eb-908e-e2682faa9539.png">
 
 - 해결방법 → 규제 : 모델을 단순하게 하고 과대적합의 위험을 감수시키기 위해 모델에 제약을 가하는 것.
 - 하이퍼파라미터 : 알고리즘을 조절하기 위해 사전에 정의하는 파라미터. /
@@ -112,7 +113,7 @@
 
 - 모델을 평가하고 선택하기 : 훈련 세트로 훈련한 뒤 테스트 세트 사용하여 일반화 평가
 
-  ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2a3efcb-1d64-4295-9be6-4cfbc2733aa8/_2020-12-26__6.11.20.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b2a3efcb-1d64-4295-9be6-4cfbc2733aa8/_2020-12-26__6.11.20.png)
+<img width="586" alt="_2020-12-26__6 11 20" src="https://user-images.githubusercontent.com/70262329/103149001-fc6cd200-47a8-11eb-8362-db96edf3293a.png">
 
 - 규제 적용을 위한 하이퍼파라미터 값 선택 : 100개의 하이퍼 파라미터 , 100개의 다른 모델 훈련 → 이 중 일반화 오차가 낮은 최적의 하이퍼 파라미터를 찾아 투입 → 문제 발생
 
@@ -126,7 +127,7 @@
 
   ** 훈련세트와 검증세트의 분리
 
-  ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c71d36d-2b24-4fb2-8da6-3ea5f13760c0/_2020-12-26__6.11.50.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3c71d36d-2b24-4fb2-8da6-3ea5f13760c0/_2020-12-26__6.11.50.png)
+<img width="586" alt="_2020-12-26__6 11 50" src="https://user-images.githubusercontent.com/70262329/103149002-fd9dff00-47a8-11eb-9782-4edf73d1e00a.png">
 
   - 문제점1 : 검증 세트가 너무 작으면 모델이 정확하게 평가되기 어려움. (최적화되지 않은 모델을 잘못 선택할 수도)
 
@@ -139,8 +140,8 @@
     → 모든 모델의 평가를 평균하여 성능 측정
 
     → But, 검증 세트의 개수에 비례하므로 훈련 시간 증가 문제 발생
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef8a642d-11de-478f-9d3b-0a386535c358/_2020-12-26__6.12.21.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ef8a642d-11de-478f-9d3b-0a386535c358/_2020-12-26__6.12.21.png)
+    
+<img width="593" alt="_2020-12-26__6 12 21" src="https://user-images.githubusercontent.com/70262329/103149004-0098ef80-47a9-11eb-8e6e-67c0600a2e37.png">
 
 - 데이터 불일치
 
@@ -160,3 +161,6 @@
   - 웹 사진 중 일부를 따로 떼어 내어 '훈련 개발 세트'를 만든 뒤, 웹 사진이 없는 훈련 세트로 훈련한 후에 평가한다.
   - 훈련 개발 세트가 OK → 검증 세트에서 나쁜 성능 = 데이터 불일치 → 데이터를 전처리하여 다시 훈련 필요
   - 훈련 개발 세트가 BAD → 훈련 세트에 과대 적합.
+  
+  
+  출처 : [https://losskatsu.github.io/machine-learning/cross-validation/#머신러닝-교차검증cross-validation의-개념-의미](https://losskatsu.github.io/machine-learning/cross-validation/#%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EA%B5%90%EC%B0%A8%EA%B2%80%EC%A6%9Dcross-validation%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%98%EB%AF%B8)
