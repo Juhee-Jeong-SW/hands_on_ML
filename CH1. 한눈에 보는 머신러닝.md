@@ -163,4 +163,5 @@
   - 훈련 개발 세트가 BAD → 훈련 세트에 과대 적합.
   
   
-  출처 : [https://losskatsu.github.io/machine-learning/cross-validation/#머신러닝-교차검증cross-validation의-개념-의미](https://losskatsu.github.io/machine-learning/cross-validation/#%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EA%B5%90%EC%B0%A8%EA%B2%80%EC%A6%9Dcross-validation%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%98%EB%AF%B8)
+  
+  그림출 : [https://losskatsu.github.io/machine-learning/cross-validation/#머신러닝-교차검증cross-validation의-개념-의미](https://losskatsu.github.io/machine-learning/cross-validation/#%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D-%EA%B5%90%EC%B0%A8%EA%B2%80%EC%A6%9Dcross-validation%EC%9D%98-%EA%B0%9C%EB%85%90-%EC%9D%98%EB%AF%B8)
