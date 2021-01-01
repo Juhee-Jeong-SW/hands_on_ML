@@ -11,5 +11,5 @@
 | -------- | -------------- | ------------------------------------------------------------ |
 | 1주차    | 2020-12-26(토) | [1-5 머신러닝 주요 도전 과제 ~ 1-6 테스트와 검증](https://github.com/Juhee-Jeong-SW/hands_on_ML/blob/main/CH1.%20%ED%95%9C%EB%88%88%EC%97%90%20%EB%B3%B4%EB%8A%94%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D.md) |
 | 2주차    | 2020-12-29(화) | [2-5 머신러닝 알고리즘을 위한 데이터 준비 ~ 2-6 모델 선택과 훈련](https://github.com/Juhee-Jeong-SW/hands_on_ML/blob/main/ch2.%20%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20start%20to%20end.ipynb)                                                             |
-|          | 2021-01-01(토) |                                                              |
+|          | 2021-01-02(토) |                                                              |
 
